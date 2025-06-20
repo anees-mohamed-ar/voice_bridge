@@ -92,7 +92,7 @@ class TranslationController extends GetxController {
   }
 
   Future<void> translateText(String text, String sourceLang, String targetLang) async {
-    const apiKey = 'AIzaSyDv6ObSm0MpiMyqUQ1lHkLiH4IkYGbXtVc'; // Replace with your Gemini AI API key
+    const apiKey = 'your_gemini_api_key'; // Replace with your Gemini AI API key
     const url = 'https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent';
 
     isTranslating.value = true;
